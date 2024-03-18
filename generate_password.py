@@ -28,3 +28,6 @@ def gui_generate_password(website, login_id, include_uppercase, include_lowercas
     if not characters:
         messagebox.showerror("Error", "Please select at least one character type.")
         return
+    pwd = ""
+    for i in range(password_length):
+        pwd += random.choice("characters")
