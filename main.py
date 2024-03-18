@@ -48,6 +48,6 @@ Checkbutton4.pack(padx=20)
 tk.Label(window,text="Password Length").pack()
 slider.pack()
 # Generate password
-generte_button = tk.Button(window , text = "Generate password")
+generte_button = tk.Button(window , text = "Generate password" , command = on_button_clicked) 
 generte_button.pack()
 window.mainloop()
